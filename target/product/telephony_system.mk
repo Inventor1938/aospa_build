@@ -22,8 +22,6 @@ TARGET_USES_QCOM_BSP_ATEL := true
 
 PRODUCT_PACKAGES := \
     ONS \
-    CarrierDefaultApp \
-    CallLogBackup \
-    CellBroadcastReceiver \
+    CarrierDefaultApp
 
 PRODUCT_COPY_FILES := \

@@ -32,11 +32,9 @@ $(call inherit-product-if-exists, frameworks/base/data/keyboards/keyboards.mk)
 $(call inherit-product-if-exists, frameworks/webview/chromium/chromium.mk)
 
 PRODUCT_PACKAGES += \
-    BasicDreams \
     BlockedNumberProvider \
     Bluetooth \
     BluetoothMidiService \
-    BookmarkProvider \
     BuiltInPrintService \
     CalendarProvider \
     cameraserver \
@@ -46,7 +44,6 @@ PRODUCT_PACKAGES += \
     clatd.conf \
     DocumentsUI \
     DownloadProviderUi \
-    EasterEgg \
     ExternalStorageProvider \
     FusedLocation \
     InputDevices \
@@ -55,7 +52,6 @@ PRODUCT_PACKAGES += \
     ManagedProvisioning \
     MmsService \
     MtpDocumentsProvider \
-    MusicFX \
     OsuLogin \
     PacProcessor \
     PrintRecommendationService \
@@ -68,7 +64,6 @@ PRODUCT_PACKAGES += \
     TelephonyProvider \
     TeleService \
     Traceur \
-    UserDictionaryProvider \
     VpnDialogs \
     vr \
 
